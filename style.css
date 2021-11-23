@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@1,300&display=swap');
+
+html, body {
+
+  height: 100%;
+  width: 100%;
+  color: #222;
+
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+font-family:  'Bebas Neue', sans-serif;
+}
+
+.p {
+font-family: 'Cormorant Garamond', serif;
+}
+}
+.navbar {
+  background-color: #ebeef3;
+  padding-left: 3rem;
+  padding-top: .8rem;
+  padding-bottom: .8rem;
+  padding-right: 2rem;
+}
+
+.navbar-nav li{
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+.btn-primary{
+  background-color: #758b76;
+  border: 1px solid #d5d5d5;
+}
+.btn-primary:hover{
+  background-color: #d5d5d5;
+  border: 1px solid #d5d5d5;
+}
+.padding{
+  padding-bottom: 2rem;
+}
+.welcome {
+  width:100%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+.welcom hr {
+  border-top: 2px solid #d5d5d5;
+  width: 95%;
+  margin-top:.3rem;
+  margin-bottom: 1rem;
+}
+.fa-user{
+  color: #758b76;
+}
+.fa-bullseye{
+  color: #758b76;
+}
+.fa-react{
+  color: #758b76;
+}
+.fa-user, .fa-bullseye, .fa-react {
+  font-size: 4em;
+  margin: 1rem;
+}
+.social a {
+  font-size:4.5em;
+  padding: 5rem;
+}
+.fa-linkedin{
+  color: #3b5998;
+}
+.fa-desktop{
+  color: #758b76;
+}
+.card-text {
+  border: none;
+}
+
+
+
+.fa-linkedin:hover,
+.fa-desktop:hover {
+  color: #d5d5d5;
+}
+
+footer {
+  background-color: #ebeef3;
+  color: #000000;
+  padding-top: .8rem;
+  padding-left: 2rem;
+  padding-right: .8rem;
+}
+
+}
+footer h4{
+  color:#000000;
+}
+footer p{
+  color:#000000;
+  padding-left: 3rem;
+}
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width: 50%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+footer a{
+  color: #d5d5d5;
+}
+hr.light-100{
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+.social a {
+  font-size:4em;
+  padding: 3rem;
+}
+
+  }
+@media (max-width: 768px) {
+
+  .social a {
+    font-size:2.5em;
+    padding: 1.2rem;
+  }
+  footer p{
+    padding: 2.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .navbar {
+    margin-left: auto;
+    margin-right: : auto;
+  }
+
+    }
+
+  .footer {
+    margin-left: auto;
+    margin-right: : auto;
+  }
+  .carousel-caption{
+
+      top: 40%;
+
+    }
+    .social a {
+      font-size:2em;
+      padding: .7rem;
+    }
+    footer p{
+      padding: .8rem;
+    }
+}
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
